@@ -7,10 +7,16 @@ const styles = StyleSheet.create({
 
   },
   button:{
+    backgroundColor: 'yellow',
+    height: 40,
+    borderRadius: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
 
   },
   text: {
-
+    fontSize: 12,
+    fontWeight: '500',
   }
 
 });
