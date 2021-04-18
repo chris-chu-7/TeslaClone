@@ -10,8 +10,8 @@ const StyleButton = (props) => {
 
   const{type, content, onPress} = props;
   //console.warn(type);
-  const backgroundColor = type === 'primary' ? '#171A20C' : '#FFFFFFA6';
-  const textColor = type === 'primary' ? '#FFFFFFA6': '#171A20CC';
+  const backgroundColor = type === 'primary' ? 'black' : 'white';
+  const textColor = type === 'primary' ? 'white': 'black';
 
   return(
     <View style = {styles.container}>
